@@ -1,0 +1,25 @@
+body {
+    background-color: #F0F2F5;
+}
+
+/* Navbar */
+
+/* Logo  */
+.logo-area {
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.logo-area .logo {
+    max-width: 40px;
+}
+
+/* Search field  */
+.search-field.form-control {
+    border-radius: 25px;
+}
+
+/* Navbar */

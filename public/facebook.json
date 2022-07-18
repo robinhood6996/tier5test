@@ -1,0 +1,31 @@
+{
+    "user": {
+        "username": "joe-adam",
+        "name": "Joe Adam",
+        "profile_picture": ""
+    },
+    "posts": [
+        {
+            "id": "8402678390264947303",
+            "user": {
+                "username": "adam",
+                "name": "Adam",
+                "profile_picture": ""
+            },
+            "posted_on": "1617220982",
+            "likes": 10,
+            "liked": true,
+            "comments": [
+                {
+                    "text": "Hello!",
+                    "created_at": "1617220982",
+                    "user": {
+                        "username": "adam",
+                        "name": "Adam",
+                        "profile_picture": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

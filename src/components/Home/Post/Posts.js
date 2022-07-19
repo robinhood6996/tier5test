@@ -15,6 +15,7 @@ const Posts = () => {
                 <div className='container my-5'>
                     <div className="posts ">
                         <Post />
+                        <Post />
                     </div>
                 </div>
             </section>

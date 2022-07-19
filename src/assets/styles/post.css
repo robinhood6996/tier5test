@@ -30,7 +30,7 @@
 }
 
 .summaries {
-    padding: 5px 10px 0px 10px;
+    padding: 14px 35px 0px 6px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -75,4 +75,46 @@ h4.commenter-name {
 
 .comment-area {
     padding: 0px 0px 20px 0px;
+}
+
+.like {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.comment {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.share {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.likes {
+    font-size: 18px;
+    /* display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400; */
+}
+
+.actions {
+    padding: 0 35px 0px 6px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }

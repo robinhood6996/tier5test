@@ -8,7 +8,7 @@ import { BsThreeDots } from 'react-icons/bs';
 const Post = () => {
     return (
         <>
-            <div className="post mx-auto">
+            <div className="post mx-auto mb-3">
                 <div className="post-header d-flex justify-content-between align-items-center">
                     <div className="user d-flex align-items-center">
                         <div className="user-img me-2">
@@ -42,17 +42,22 @@ const Post = () => {
                     <div className="container footer-options">
                         <div className="summaries">
                             <div className="likes">
-                                <p>  <FiThumbsUp /> Robin, samy and 5 other</p>
+                                {/* <div><FiThumbsUp /></div> */}
+                                <div>10 Likes</div>
                             </div>
 
-                            <div className="comment-share d-flex justify-content-between gap-5">
+                            <div className="comment-share d-flex justify-content-between gap-2">
                                 <p>500 Comments</p>
-                                <p>2 Shares</p>
+
+                                <div className="comment-summary">
+                                    <p>2 Shares</p>
+                                </div>
                             </div>
+
                         </div>
                         <hr />
-                        <div className="container actions d-flex justify-content-between pb-2">
-                            <div className="like cursor-pointer"><FiThumbsUp />Like</div>
+                        <div className="container actions ">
+                            <div className="like cursor-pointer"><div><FiThumbsUp /></div><div>Like</div></div>
                             <div className="comment cursor-pointer"><VscComment />Comment</div>
                             <div className="share cursor-pointer"><RiShareForwardLine />Share</div>
                         </div>

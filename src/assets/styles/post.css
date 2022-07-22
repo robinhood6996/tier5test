@@ -118,3 +118,12 @@ h4.commenter-name {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+
+img.post-img {
+    width: 100%;
+}
+
+.liked {
+    font-weight: 600;
+    color: #3B5998;
+}

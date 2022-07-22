@@ -1,6 +1,6 @@
 .facebook-header-icon {
     display: flex;
-    gap: 12px;
+    gap: 25px;
     justify-content: flex-start;
 }
 
@@ -17,8 +17,29 @@
     justify-content: space-between;
 }
 
+@media only screen and (max-width:767px) {
+    .header-inner {
+        flex-direction: column;
+    }
+
+    .market-place {
+        display: none;
+    }
+
+    .facebook-header-icon {
+        display: none;
+    }
+
+    .home-middle {
+        padding: 0px !important;
+    }
+}
+
 .home-middle {
     padding-right: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
 }
 
 .home-icon {
@@ -40,4 +61,15 @@
     background: #d2d2d2;
     border-radius: 50%;
     padding: 5px;
+}
+
+.responsive {
+    display: flex;
+}
+
+.divider {
+    background: #dedede;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0px;
 }
